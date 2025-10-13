@@ -374,4 +374,6 @@ const bills = [
 ];
 
 // Start coding here
-const billMembers;
+const billMembers = bills.filter(findNull => findNull.member !== null).map(bills => bills.member.name)
+
+console.log(billMembers);
