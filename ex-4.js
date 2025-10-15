@@ -383,6 +383,7 @@ const totalMembers = bills.filter(findNull => findNull.member !== null).map(find
   
   return acc
 },[])
+console.log(`Unique Members Count: ${totalMembers.length}`);
 
 
 
